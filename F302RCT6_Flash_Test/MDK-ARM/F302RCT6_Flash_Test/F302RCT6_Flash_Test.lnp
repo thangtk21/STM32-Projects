@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"f302rct6_flash_test\startup_stm32f302xe.o"
+"f302rct6_flash_test\main.o"
+"f302rct6_flash_test\stm32f3xx_it.o"
+"f302rct6_flash_test\stm32f3xx_hal_msp.o"
+"f302rct6_flash_test\stm32f3xx_hal_tim.o"
+"f302rct6_flash_test\stm32f3xx_hal_tim_ex.o"
+"f302rct6_flash_test\stm32f3xx_hal.o"
+"f302rct6_flash_test\stm32f3xx_hal_rcc.o"
+"f302rct6_flash_test\stm32f3xx_hal_rcc_ex.o"
+"f302rct6_flash_test\stm32f3xx_hal_gpio.o"
+"f302rct6_flash_test\stm32f3xx_hal_dma.o"
+"f302rct6_flash_test\stm32f3xx_hal_cortex.o"
+"f302rct6_flash_test\stm32f3xx_hal_pwr.o"
+"f302rct6_flash_test\stm32f3xx_hal_pwr_ex.o"
+"f302rct6_flash_test\stm32f3xx_hal_flash.o"
+"f302rct6_flash_test\stm32f3xx_hal_flash_ex.o"
+"f302rct6_flash_test\stm32f3xx_hal_i2c.o"
+"f302rct6_flash_test\stm32f3xx_hal_i2c_ex.o"
+"f302rct6_flash_test\stm32f3xx_hal_exti.o"
+"f302rct6_flash_test\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "F302RCT6_Flash_Test\F302RCT6_Flash_Test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F302RCT6_Flash_Test.map" -o F302RCT6_Flash_Test\F302RCT6_Flash_Test.axf

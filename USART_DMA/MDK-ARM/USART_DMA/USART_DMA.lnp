@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"usart_dma\startup_stm32f302xe.o"
+"usart_dma\main.o"
+"usart_dma\stm32f3xx_it.o"
+"usart_dma\stm32f3xx_hal_msp.o"
+"usart_dma\stm32f3xx_hal_tim.o"
+"usart_dma\stm32f3xx_hal_tim_ex.o"
+"usart_dma\stm32f3xx_hal_uart.o"
+"usart_dma\stm32f3xx_hal_uart_ex.o"
+"usart_dma\stm32f3xx_hal.o"
+"usart_dma\stm32f3xx_hal_rcc.o"
+"usart_dma\stm32f3xx_hal_rcc_ex.o"
+"usart_dma\stm32f3xx_hal_gpio.o"
+"usart_dma\stm32f3xx_hal_dma.o"
+"usart_dma\stm32f3xx_hal_cortex.o"
+"usart_dma\stm32f3xx_hal_pwr.o"
+"usart_dma\stm32f3xx_hal_pwr_ex.o"
+"usart_dma\stm32f3xx_hal_flash.o"
+"usart_dma\stm32f3xx_hal_flash_ex.o"
+"usart_dma\stm32f3xx_hal_i2c.o"
+"usart_dma\stm32f3xx_hal_i2c_ex.o"
+"usart_dma\stm32f3xx_hal_exti.o"
+"usart_dma\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "USART_DMA\USART_DMA.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "USART_DMA.map" -o USART_DMA\USART_DMA.axf

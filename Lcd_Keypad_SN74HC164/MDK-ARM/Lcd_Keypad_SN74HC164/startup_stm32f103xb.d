@@ -1,0 +1,1 @@
+lcd_keypad_sn74hc164\startup_stm32f103xb.o: startup_stm32f103xb.s

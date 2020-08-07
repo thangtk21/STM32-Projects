@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"testcan\startup_stm32f303xc.o"
+"testcan\main.o"
+"testcan\stm32f3xx_it.o"
+"testcan\stm32f3xx_hal_msp.o"
+"testcan\stm32f3xx_hal_can.o"
+"testcan\stm32f3xx_hal.o"
+"testcan\stm32f3xx_hal_rcc.o"
+"testcan\stm32f3xx_hal_rcc_ex.o"
+"testcan\stm32f3xx_hal_gpio.o"
+"testcan\stm32f3xx_hal_dma.o"
+"testcan\stm32f3xx_hal_cortex.o"
+"testcan\stm32f3xx_hal_pwr.o"
+"testcan\stm32f3xx_hal_pwr_ex.o"
+"testcan\stm32f3xx_hal_flash.o"
+"testcan\stm32f3xx_hal_flash_ex.o"
+"testcan\stm32f3xx_hal_i2c.o"
+"testcan\stm32f3xx_hal_i2c_ex.o"
+"testcan\stm32f3xx_hal_exti.o"
+"testcan\stm32f3xx_hal_tim.o"
+"testcan\stm32f3xx_hal_tim_ex.o"
+"testcan\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "TestCAN\TestCAN.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TestCAN.map" -o TestCAN\TestCAN.axf

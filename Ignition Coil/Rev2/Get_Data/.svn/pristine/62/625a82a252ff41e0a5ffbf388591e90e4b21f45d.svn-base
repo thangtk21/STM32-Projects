@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"receive_303rct6\startup_stm32f303xc.o"
+"receive_303rct6\stm32f3xx_hal_msp.o"
+"receive_303rct6\main.o"
+"receive_303rct6\stm32f3xx_it.o"
+"receive_303rct6\stm32f3xx_hal_tim_ex.o"
+"receive_303rct6\stm32f3xx_hal_cortex.o"
+"receive_303rct6\stm32f3xx_hal_pwr_ex.o"
+"receive_303rct6\stm32f3xx_hal_gpio.o"
+"receive_303rct6\stm32f3xx_hal_flash_ex.o"
+"receive_303rct6\stm32f3xx_hal.o"
+"receive_303rct6\stm32f3xx_hal_i2c.o"
+"receive_303rct6\stm32f3xx_hal_tim.o"
+"receive_303rct6\stm32f3xx_hal_rcc_ex.o"
+"receive_303rct6\stm32f3xx_hal_flash.o"
+"receive_303rct6\stm32f3xx_hal_can.o"
+"receive_303rct6\stm32f3xx_hal_dma.o"
+"receive_303rct6\stm32f3xx_hal_pwr.o"
+"receive_303rct6\stm32f3xx_hal_rcc.o"
+"receive_303rct6\stm32f3xx_hal_i2c_ex.o"
+"receive_303rct6\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "Receive_303rct6\Receive_303rct6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Receive_303rct6.map" -o Receive_303rct6\Receive_303rct6.axf

@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Thang Tran Minh, DEVN, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\admin\Desktop\Get_Data\Transmit_303rct6\MDK-ARM\Transmit_303rct6.uvprojx
+Project File Date:  12/02/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Transmit_303rct6'
+assembling startup_stm32f303xc.s...
+compiling stm32f3xx_it.c...
+compiling stm32f3xx_hal_msp.c...
+compiling main.c...
+../Inc/lcd.h(97): warning:  #1-D: last line of file ends without a newline
+  #endif /* LCD_H_ */
+../Src/main.c(238): warning:  #188-D: enumerated type mixed with another type
+  	point_lcd_value = 255;
+../Src/main.c: 2 warnings, 0 errors
+compiling lcd.c...
+../Inc/lcd.h(97): warning:  #1-D: last line of file ends without a newline
+  #endif /* LCD_H_ */
+..\Src\lcd.c(118): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(lcd->rs_port, lcd->rs_pin, LCD_COMMAND_REG);		// Write to command register
+..\Src\lcd.c(137): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(lcd->rs_port, lcd->rs_pin, LCD_DATA_REG);			// Write to data register
+..\Src\lcd.c(158): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(lcd->data_port[i], lcd->data_pin[i], (data >> i) & 0x01);
+..\Src\lcd.c(161): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(lcd->en_port, lcd->en_pin, 1);
+..\Src\lcd.c(163): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(lcd->en_port, lcd->en_pin, 0); 		// Data receive on falling edge
+..\Src\lcd.c(164): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\lcd.c: 7 warnings, 0 errors
+compiling stm32f3xx_hal_cortex.c...
+compiling stm32f3xx_hal_i2c_ex.c...
+compiling stm32f3xx_hal_flash.c...
+compiling stm32f3xx_hal_pwr.c...
+compiling stm32f3xx_hal_i2c.c...
+compiling stm32f3xx_hal_dma.c...
+compiling stm32f3xx_hal_tim_ex.c...
+compiling stm32f3xx_hal_rcc.c...
+compiling stm32f3xx_hal_pwr_ex.c...
+compiling stm32f3xx_hal_rcc_ex.c...
+compiling stm32f3xx_hal_gpio.c...
+compiling stm32f3xx_hal.c...
+compiling stm32f3xx_hal_flash_ex.c...
+compiling stm32f3xx_hal_can.c...
+compiling system_stm32f3xx.c...
+compiling stm32f3xx_hal_tim.c...
+linking...
+Program Size: Code=16082 RO-data=478 RW-data=148 ZI-data=1284  
+"Transmit_303rct6\Transmit_303rct6.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F3xx_DFP.2.1.0.pack
+                Keil.STM32F3xx_DFP.2.1.0
+                STMicroelectronics STM32F3 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Transmit_303rct6
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>

@@ -1,0 +1,1 @@
+receive_303rct6\startup_stm32f303xc.o: startup_stm32f303xc.s

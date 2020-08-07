@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"lcd_keypad\startup_stm32f103xb.o"
+"lcd_keypad\stm32f1xx_it.o"
+"lcd_keypad\stm32f1xx_hal_msp.o"
+"lcd_keypad\main.o"
+"lcd_keypad\lcd.o"
+"lcd_keypad\stm32f1xx_hal_tim.o"
+"lcd_keypad\stm32f1xx_hal_gpio.o"
+"lcd_keypad\stm32f1xx_hal_pwr.o"
+"lcd_keypad\stm32f1xx_hal_tim_ex.o"
+"lcd_keypad\stm32f1xx_hal.o"
+"lcd_keypad\stm32f1xx_hal_flash_ex.o"
+"lcd_keypad\stm32f1xx_hal_dma.o"
+"lcd_keypad\stm32f1xx_hal_rcc_ex.o"
+"lcd_keypad\stm32f1xx_hal_gpio_ex.o"
+"lcd_keypad\stm32f1xx_hal_flash.o"
+"lcd_keypad\stm32f1xx_hal_rcc.o"
+"lcd_keypad\stm32f1xx_hal_cortex.o"
+"lcd_keypad\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "LCD_KEYPAD\LCD_KEYPAD.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LCD_KEYPAD.map" -o LCD_KEYPAD\LCD_KEYPAD.axf

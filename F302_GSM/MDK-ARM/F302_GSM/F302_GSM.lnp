@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"f302_gsm\startup_stm32f302xe.o"
+"f302_gsm\main.o"
+"f302_gsm\stm32f3xx_it.o"
+"f302_gsm\stm32f3xx_hal_msp.o"
+"f302_gsm\stm32f3xx_hal_tim.o"
+"f302_gsm\stm32f3xx_hal_tim_ex.o"
+"f302_gsm\stm32f3xx_hal_uart.o"
+"f302_gsm\stm32f3xx_hal_uart_ex.o"
+"f302_gsm\stm32f3xx_hal.o"
+"f302_gsm\stm32f3xx_hal_rcc.o"
+"f302_gsm\stm32f3xx_hal_rcc_ex.o"
+"f302_gsm\stm32f3xx_hal_gpio.o"
+"f302_gsm\stm32f3xx_hal_dma.o"
+"f302_gsm\stm32f3xx_hal_cortex.o"
+"f302_gsm\stm32f3xx_hal_pwr.o"
+"f302_gsm\stm32f3xx_hal_pwr_ex.o"
+"f302_gsm\stm32f3xx_hal_flash.o"
+"f302_gsm\stm32f3xx_hal_flash_ex.o"
+"f302_gsm\stm32f3xx_hal_i2c.o"
+"f302_gsm\stm32f3xx_hal_i2c_ex.o"
+"f302_gsm\stm32f3xx_hal_exti.o"
+"f302_gsm\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "F302_GSM\F302_GSM.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "F302_GSM.map" -o F302_GSM\F302_GSM.axf

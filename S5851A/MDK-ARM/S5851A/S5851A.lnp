@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"s5851a\startup_stm32f103xb.o"
+"s5851a\main.o"
+"s5851a\stm32f1xx_it.o"
+"s5851a\stm32f1xx_hal_msp.o"
+"s5851a\stm32f1xx_hal_gpio_ex.o"
+"s5851a\stm32f1xx_hal_i2c.o"
+"s5851a\stm32f1xx_hal.o"
+"s5851a\stm32f1xx_hal_rcc.o"
+"s5851a\stm32f1xx_hal_rcc_ex.o"
+"s5851a\stm32f1xx_hal_gpio.o"
+"s5851a\stm32f1xx_hal_dma.o"
+"s5851a\stm32f1xx_hal_cortex.o"
+"s5851a\stm32f1xx_hal_pwr.o"
+"s5851a\stm32f1xx_hal_flash.o"
+"s5851a\stm32f1xx_hal_flash_ex.o"
+"s5851a\stm32f1xx_hal_exti.o"
+"s5851a\stm32f1xx_hal_tim.o"
+"s5851a\stm32f1xx_hal_tim_ex.o"
+"s5851a\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "S5851A\S5851A.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "S5851A.map" -o S5851A\S5851A.axf

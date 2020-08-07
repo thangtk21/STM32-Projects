@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"pulse_support_avr\startup_stm32f103xb.o"
+"pulse_support_avr\main.o"
+"pulse_support_avr\stm32f1xx_it.o"
+"pulse_support_avr\stm32f1xx_hal_msp.o"
+"pulse_support_avr\dwt_delay.o"
+"pulse_support_avr\stm32f1xx_hal_gpio_ex.o"
+"pulse_support_avr\stm32f1xx_hal_tim.o"
+"pulse_support_avr\stm32f1xx_hal_tim_ex.o"
+"pulse_support_avr\stm32f1xx_hal.o"
+"pulse_support_avr\stm32f1xx_hal_rcc.o"
+"pulse_support_avr\stm32f1xx_hal_rcc_ex.o"
+"pulse_support_avr\stm32f1xx_hal_gpio.o"
+"pulse_support_avr\stm32f1xx_hal_dma.o"
+"pulse_support_avr\stm32f1xx_hal_cortex.o"
+"pulse_support_avr\stm32f1xx_hal_pwr.o"
+"pulse_support_avr\stm32f1xx_hal_flash.o"
+"pulse_support_avr\stm32f1xx_hal_flash_ex.o"
+"pulse_support_avr\stm32f1xx_hal_exti.o"
+"pulse_support_avr\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Pulse_Support_AVR\Pulse_Support_AVR.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Pulse_Support_AVR.map" -o Pulse_Support_AVR\Pulse_Support_AVR.axf

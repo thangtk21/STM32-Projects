@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"debug_clock_register\startup_stm32f103xb.o"
+"debug_clock_register\main.o"
+"debug_clock_register\stm32f1xx_it.o"
+"debug_clock_register\stm32f1xx_hal_msp.o"
+"debug_clock_register\stm32f1xx_hal_gpio_ex.o"
+"debug_clock_register\stm32f1xx_hal_tim.o"
+"debug_clock_register\stm32f1xx_hal_tim_ex.o"
+"debug_clock_register\stm32f1xx_hal.o"
+"debug_clock_register\stm32f1xx_hal_rcc.o"
+"debug_clock_register\stm32f1xx_hal_rcc_ex.o"
+"debug_clock_register\stm32f1xx_hal_gpio.o"
+"debug_clock_register\stm32f1xx_hal_dma.o"
+"debug_clock_register\stm32f1xx_hal_cortex.o"
+"debug_clock_register\stm32f1xx_hal_pwr.o"
+"debug_clock_register\stm32f1xx_hal_flash.o"
+"debug_clock_register\stm32f1xx_hal_flash_ex.o"
+"debug_clock_register\stm32f1xx_hal_exti.o"
+"debug_clock_register\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Debug_Clock_Register\Debug_Clock_Register.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Debug_Clock_Register.map" -o Debug_Clock_Register\Debug_Clock_Register.axf

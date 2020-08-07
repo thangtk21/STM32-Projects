@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"testled\startup_stm32f103xb.o"
+"testled\main.o"
+"testled\stm32f1xx_it.o"
+"testled\stm32f1xx_hal_msp.o"
+"testled\stm32f1xx_hal_gpio_ex.o"
+"testled\stm32f1xx_hal_tim.o"
+"testled\stm32f1xx_hal_tim_ex.o"
+"testled\stm32f1xx_hal.o"
+"testled\stm32f1xx_hal_rcc.o"
+"testled\stm32f1xx_hal_rcc_ex.o"
+"testled\stm32f1xx_hal_gpio.o"
+"testled\stm32f1xx_hal_dma.o"
+"testled\stm32f1xx_hal_cortex.o"
+"testled\stm32f1xx_hal_pwr.o"
+"testled\stm32f1xx_hal_flash.o"
+"testled\stm32f1xx_hal_flash_ex.o"
+"testled\stm32f1xx_hal_exti.o"
+"testled\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "TestLED\TestLED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TestLED.map" -o TestLED\TestLED.axf

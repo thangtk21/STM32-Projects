@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp
+"only_1_timer\startup_stm32f303xc.o"
+"only_1_timer\stm32f3xx_hal_tim.o"
+"only_1_timer\stm32f3xx_hal_flash.o"
+"only_1_timer\stm32f3xx_hal_gpio.o"
+"only_1_timer\stm32f3xx_hal_flash_ex.o"
+"only_1_timer\stm32f3xx_hal_rcc_ex.o"
+"only_1_timer\stm32f3xx_hal_i2c.o"
+"only_1_timer\stm32f3xx_hal.o"
+"only_1_timer\stm32f3xx_hal_pwr.o"
+"only_1_timer\stm32f3xx_hal_can.o"
+"only_1_timer\stm32f3xx_hal_cortex.o"
+"only_1_timer\stm32f3xx_hal_i2c_ex.o"
+"only_1_timer\stm32f3xx_hal_dma.o"
+"only_1_timer\stm32f3xx_hal_pwr_ex.o"
+"only_1_timer\stm32f3xx_hal_tim_ex.o"
+"only_1_timer\stm32f3xx_hal_rcc.o"
+"only_1_timer\main.o"
+"only_1_timer\stm32f3xx_it.o"
+"only_1_timer\stm32f3xx_hal_msp.o"
+"only_1_timer\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "Only_1_Timer\Only_1_Timer.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Only_1_Timer.map" -o Only_1_Timer\Only_1_Timer.axf

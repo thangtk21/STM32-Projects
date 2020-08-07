@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"pulse_for_avr\startup_stm32f303xc.o"
+"pulse_for_avr\main.o"
+"pulse_for_avr\stm32f3xx_it.o"
+"pulse_for_avr\stm32f3xx_hal_msp.o"
+"pulse_for_avr\dwt_delay.o"
+"pulse_for_avr\stm32f3xx_hal_tim.o"
+"pulse_for_avr\stm32f3xx_hal_tim_ex.o"
+"pulse_for_avr\stm32f3xx_hal.o"
+"pulse_for_avr\stm32f3xx_hal_rcc.o"
+"pulse_for_avr\stm32f3xx_hal_rcc_ex.o"
+"pulse_for_avr\stm32f3xx_hal_gpio.o"
+"pulse_for_avr\stm32f3xx_hal_dma.o"
+"pulse_for_avr\stm32f3xx_hal_cortex.o"
+"pulse_for_avr\stm32f3xx_hal_pwr.o"
+"pulse_for_avr\stm32f3xx_hal_pwr_ex.o"
+"pulse_for_avr\stm32f3xx_hal_flash.o"
+"pulse_for_avr\stm32f3xx_hal_flash_ex.o"
+"pulse_for_avr\stm32f3xx_hal_i2c.o"
+"pulse_for_avr\stm32f3xx_hal_i2c_ex.o"
+"pulse_for_avr\stm32f3xx_hal_exti.o"
+"pulse_for_avr\system_stm32f3xx.o"
+--library_type=microlib --strict --scatter "Pulse_For_AVR\Pulse_For_AVR.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Pulse_For_AVR.map" -o Pulse_For_AVR\Pulse_For_AVR.axf

@@ -1,0 +1,10 @@
+.\only_1_timer_build\system_stm32f3xx.o: ..\Src\system_stm32f3xx.c
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xc.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h
+.\only_1_timer_build\system_stm32f3xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h

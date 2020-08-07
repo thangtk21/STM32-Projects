@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"idwg\startup_stm32f103xb.o"
+"idwg\main.o"
+"idwg\stm32f1xx_it.o"
+"idwg\stm32f1xx_hal_msp.o"
+"idwg\stm32f1xx_hal_gpio_ex.o"
+"idwg\stm32f1xx_hal_tim.o"
+"idwg\stm32f1xx_hal_tim_ex.o"
+"idwg\stm32f1xx_hal_pcd.o"
+"idwg\stm32f1xx_hal_pcd_ex.o"
+"idwg\stm32f1xx_ll_usb.o"
+"idwg\stm32f1xx_hal.o"
+"idwg\stm32f1xx_hal_rcc.o"
+"idwg\stm32f1xx_hal_rcc_ex.o"
+"idwg\stm32f1xx_hal_gpio.o"
+"idwg\stm32f1xx_hal_dma.o"
+"idwg\stm32f1xx_hal_cortex.o"
+"idwg\stm32f1xx_hal_pwr.o"
+"idwg\stm32f1xx_hal_flash.o"
+"idwg\stm32f1xx_hal_flash_ex.o"
+"idwg\stm32f1xx_hal_exti.o"
+"idwg\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "IDWG\IDWG.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "IDWG.map" -o IDWG\IDWG.axf

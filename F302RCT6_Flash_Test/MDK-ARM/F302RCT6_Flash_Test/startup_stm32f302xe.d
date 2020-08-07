@@ -1,0 +1,1 @@
+f302rct6_flash_test\startup_stm32f302xe.o: startup_stm32f302xe.s

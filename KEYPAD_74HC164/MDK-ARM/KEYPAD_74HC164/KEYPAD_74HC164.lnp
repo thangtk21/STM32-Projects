@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"keypad_74hc164\startup_stm32f103xb.o"
+"keypad_74hc164\stm32f1xx_hal_gpio.o"
+"keypad_74hc164\stm32f1xx_hal_flash_ex.o"
+"keypad_74hc164\stm32f1xx_hal_rcc_ex.o"
+"keypad_74hc164\stm32f1xx_hal_tim_ex.o"
+"keypad_74hc164\stm32f1xx_hal_pwr.o"
+"keypad_74hc164\stm32f1xx_hal_cortex.o"
+"keypad_74hc164\stm32f1xx_hal_tim.o"
+"keypad_74hc164\stm32f1xx_hal_rcc.o"
+"keypad_74hc164\stm32f1xx_hal_gpio_ex.o"
+"keypad_74hc164\stm32f1xx_hal_flash.o"
+"keypad_74hc164\stm32f1xx_hal.o"
+"keypad_74hc164\stm32f1xx_hal_dma.o"
+"keypad_74hc164\stm32f1xx_hal_msp.o"
+"keypad_74hc164\stm32f1xx_it.o"
+"keypad_74hc164\main.o"
+"keypad_74hc164\dwt_delay.o"
+"keypad_74hc164\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "KEYPAD_74HC164\KEYPAD_74HC164.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "KEYPAD_74HC164.map" -o KEYPAD_74HC164\KEYPAD_74HC164.axf
